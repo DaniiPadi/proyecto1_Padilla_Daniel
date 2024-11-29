@@ -1,1 +1,74 @@
-/* You can add global styles to this file, and also import other style files */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  overflow-x: hidden;
+  background: #ffffff; 
+  color: #000;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  padding-bottom: 50px; 
+}
+
+
+.container::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  bottom: 0;
+  background: linear-gradient(to top, #2b3a70 0%, #ffffff 100%);
+  z-index: -1;
+}
+
+
+button {
+  background-color: #2b3a70;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 30px;
+  margin: 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #1e284e;
+  transform: scale(1.05); 
+}
+
+
+h1 {
+  color: #2b3a70;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaa;
+  background-color: #fff;
+  z-index: 2;
+  padding: 10px 0;
+  border-top: 1px solid #ddd; 
+}

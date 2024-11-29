@@ -1,0 +1,30 @@
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #003366;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #003366;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input:focus {
+    border-color: #003366;
+    outline: none;
+  }
+  
