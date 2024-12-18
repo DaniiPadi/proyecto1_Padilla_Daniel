@@ -2,6 +2,7 @@
     text-align: center;
     margin-top: 50px;
     font-family: Arial, sans-serif;
+    grid-row: inherit;
   }
   
   .logo {
@@ -32,9 +33,9 @@
   }
   
   .btn:hover {
-    background-color: #0055aa;
+    background-color: #134f8b;
   }
-  
+    
   .privacy-link {
     color: #003366;
     font-size: 14px;

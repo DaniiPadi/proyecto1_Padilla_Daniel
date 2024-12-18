@@ -1,5 +1,5 @@
-
 body {
+  background-color: linear-gradient(to top, #2b3a70 0%, #ffffff 100%);
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
@@ -11,6 +11,7 @@ body {
 
 
 .container {
+  background-color: linear-gradient(to top, #2b3a70 0%, #ffffff 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
